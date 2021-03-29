@@ -1,0 +1,106 @@
+.daily-card{
+	width: 150px;
+	height: 400px;
+}
+
+.daily-card-img{
+	height: 180px;
+}
+
+.daily-saled-text{
+	text-decoration: line-through;
+}
+.our-product-card{
+	width: 97px;
+	margin-right: 3px;
+}
+.our-product-img{
+    width: 100%;
+}
+
+.new-poduct-card{
+	height: auto;
+	width: auto;
+}
+.new-product-card-img{
+	width: 100%;
+}
+
+.footer-row1{
+	background-color: #ffdd76;
+}
+
+.footer-row2{
+	background-color: #ffc002;
+}
+
+.home-slide-button1:hover{
+	color: #ffc107; 
+	background-color: #343a40;
+}
+
+@media (max-width: 992px) {
+  .home-carousel-image {
+    height: 424px;
+  }
+}
+
+.home-carousel{
+	height: 560px;
+}
+
+.prod-img{
+	width: 166px;
+}
+
+.singl-big-img{
+	width: 500px;
+}
+
+.my-orders-bg{
+	background: #000000;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.wishlist-star:hover{
+	color: grey !important;
+	transition: 0.8s;
+}
+
+.wishlist-button-star:hover{
+	border-color: grey !important;
+	transition: 0.8s;
+}
+
+.wishlist-button-row2:hover{
+	background-color: #ffc107 !important;
+	color: rgb(0, 0, 0) !important;
+	transition: 0.8s;
+}
+
+.cart-card-icon{
+	margin-left: 114px;
+}
+
+.addresscard:hover{
+	background-color: #ffc107 !important;
+	transition: 2s !important; 
+}
+
+.addresscard:active{
+	background-color: #ffc107 !important;
+}
+
+.paycard:hover{
+	background-color: #ffc107;
+	transition: 2s;
+}
+
+.text-decoration-none{
+	text-decoration: none;
+}
+
+a{
+	text-decoration: none !important;
+}
